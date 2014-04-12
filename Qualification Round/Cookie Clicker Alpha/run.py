@@ -31,8 +31,6 @@ def solve(c,f,x):
 testcases = input()
      
 for caseNr in xrange(1, testcases+1):
-    c, f, x = raw_input().split(' ')
-   
-    #print "C=%s, F=%s, X=%s" % (c,f,x)
+    c, f, x = raw_input().split(' ')   
 
     print("Case #%i: %.7f" % (caseNr, solve(float(c),float(f),float(x))))
